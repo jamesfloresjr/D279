@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset="UTF-8">
+        <title>Paradigm Pet Professionals</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+            <h1>Paradigm Pet Professionals</h1>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray"><br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact-us.html">Contact Us</a>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Pets</button>
+                    
+                    <div class="dropdown-content">
+                        <a href="cats.html">Cats</a>
+                        <a href="dogs.html">Dogs</a>
+                        <a href="birds.html">Birds</a>
+                    </div>
+                </div>
+
+                <a href="faqs.html">FAQs</a>
+
+                <input type="submit" value="Fetch">
+                <input type="text" placeholder="Find something...">
+            </nav>
+        </header>
+
+        <h1 align="center">Contact Us</h1>
+
+        <section>
+            <div class="contact">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="111-111-1111" required>
+                
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="jdoe@example.com" required>
+                
+                    <label for="time-zone">Time Zone:</label>
+                    <input type="text" id="time-zone" name="time-zone" placeholder="CST" required>
+                
+                    <label for="pets-name">Pet's Name:</label>
+                    <input type="text" id="pets-name" name="pets-name" placeholder="Domino" required>
+
+                    <label for="pets-type">Pet's Type:</label>
+                    <input type="text" id="pets-type" name="pets-type" placeholder="American Pit Bull Terrier" required>
+
+                    <label for="pets-age">Pet's Age (Years):</label>
+                    <input type="number" id="pets-age" name="pets-age" min="1" max="31" placeholder="1" required>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <p>
+            <b><a href="index.html">Home</a></b> | 
+            <b><a href="contact-us.html">Contact Us</a></b> |
+            <b><a href="faqs.html">FAQs</a></b>
+            <br>
+            Copyright 2025 © Paradigm Pet Professionals
+        </p>
+      </footer>
+</html>
